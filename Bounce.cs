@@ -13,7 +13,7 @@ public class Bounce : MonoBehaviour
     {
 	    transform.position = ( distance * Time.deltaTime * speed ) + transform.position;
     }
-	// Sent when an incoming collider makes contact with this object's collider (2D physics only).
+
 	protected void OnCollisionEnter2D(Collision2D collisionInfo)
 	{
 		if (distance.y < 0)
@@ -28,3 +28,4 @@ public class Bounce : MonoBehaviour
     
     
 }
+
