@@ -4,13 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-	{
-	    
-    }
 	public int movementSpeed = 3;
-    // Update is called once per frame
+    
     void Update()
 	{	
 		if (!isReady && Time.time >= readyTime){
@@ -31,11 +26,9 @@ public class Player : MonoBehaviour
 			newMove.y, transform.position.z);
 	}
 	
-	// Sent when another object enters a trigger collider attached to this object (2D physics only).
 	protected void OnTriggerEnter2D(Collider2D other)
 	{
 		other.GetComponent<SpriteRenderer>().color = Color.red;
-	
 	}
 	
 	public float duration = 1;
@@ -51,3 +44,4 @@ public class Player : MonoBehaviour
 	}
 		
 }
+
