@@ -56,6 +56,9 @@ void Start()
 > `...`   
 
 ---
+
+First, I created a 2D object called `Player`, a sprite type, and for its programming part, I created a script called `player.cs`.
+
 ![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/4.PNG)
 ```csharp
 void Update()
