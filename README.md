@@ -1,7 +1,9 @@
+
+## Program Demo
 ![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/demo.gif)
 
 
-
+## Steps
 ![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/1.PNG)
 ```csharp
 using System.Collections;
