@@ -1,4 +1,4 @@
-![[1.PNG]]
+![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/1.PNG)
 ```csharp
 using System.Collections;
 using System.Collections.Generic;
@@ -21,7 +21,7 @@ public class NewBehaviourScript : MonoBehaviour
 ```
 
 ---
-![[2.PNG]]
+![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/2.PNG)
 ```csharp
 void Start()
 	{
@@ -32,7 +32,7 @@ void Start()
 > `Hello, World!`
 
 ---
-![[3.PNG]]
+![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/3.PNG)
 ```csharp
 void Start()
 	{
@@ -50,7 +50,7 @@ void Start()
 > `...`   
 
 ---
-![[4.PNG]]
+![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/4.PNG)
 ```csharp
 void Update()
 	{
@@ -61,7 +61,7 @@ void Update()
 	}
 ```
 ---
-![[5.PNG]]
+![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/5.PNG)
 ```csharp
 void Update()
 	{
@@ -74,7 +74,7 @@ void Update()
 ```
 
 ---
-![[6.PNG]]
+![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/6.PNG)
 ```csharp
 public class Player : MonoBehaviour
 {
@@ -85,14 +85,14 @@ public class Player : MonoBehaviour
 }
 ```
 ---
-![[7.PNG]]
+![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/7.PNG)
 ```csharp
 Vector3 newMove = (movement * Time.deltaTime * movementSpeed)
 			+ transform.position;
 ```
 
 ---
-![[8.PNG]]
+![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/8.PNG)
 ```csharp
 transform.position = new Vector3(
 			newMove.x,
@@ -100,7 +100,7 @@ transform.position = new Vector3(
 			transform.position.z);
 ```
 ---
-![[9.PNG]]
+![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/9.PNG)
 ```csharp
 using System.Collections;
 using System.Collections.Generic;
@@ -131,7 +131,7 @@ public class Player : MonoBehaviour
 }
 ```
 ---
-![[10.PNG]]
+![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/10.PNG)
 ```csharp
 public class Player : MonoBehaviour
 {
@@ -146,7 +146,7 @@ public class Player : MonoBehaviour
 }
 ```
 ---
-![[11.PNG]]
+![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/11.PNG)
 ```csharp
 protected void OnTriggerEnter2D(Collider2D other)
 	{
@@ -155,7 +155,7 @@ protected void OnTriggerEnter2D(Collider2D other)
 ```
 ---
 
-![[12.PNG]]
+![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/12.PNG)
 
 ```csharp
 public int speed = 3;
@@ -180,7 +180,8 @@ public Vector3 distance = new Vector3(0, -1, 0);
 	}
 ```
 
----![[13.PNG]]
+---
+![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/13.PNG)
 ```csharp
 public int speed = 3;
 	
@@ -192,7 +193,7 @@ public int speed = 3;
     }
 ```
 ---
-![[14.PNG]]
+![](https://github.com/Poyamohamadi/Microbe_Mayhem/blob/main/image/14.PNG)
 ```csharp
 public int movementSpeed = 3;
     // Update is called once per frame
