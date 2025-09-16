@@ -41,7 +41,5 @@ public class Player : MonoBehaviour
 			readyTime = Time.time + duration;
 			movementSpeed = 1;
 		}
-	}
-		
+	}		
 }
-
