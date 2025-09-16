@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Bounce : MonoBehaviour
 {
-
 	public int speed = 3;
 	
 	public Vector3 distance = new Vector3(0, -1, 0);
@@ -24,8 +23,7 @@ public class Bounce : MonoBehaviour
 		{
 			distance = new Vector3(0, -1, 0);
 		}
-	}
-    
-    
+	}      
 }
+
 
